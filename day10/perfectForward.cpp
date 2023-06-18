@@ -16,6 +16,7 @@ void perfectForward(T &&t){
 }
 int main(int argc,char *argv[]) {
     perfectForward(10);
+    cout<<"测试一下"<<endl;
    return 0;
 }
 
