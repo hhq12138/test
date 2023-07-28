@@ -18,6 +18,7 @@ int main()
     // 设置延迟时间
     new_value.it_value.tv_sec = 3;
     new_value.it_value.tv_usec = 0;
+
     int ret = setitimer(ITIMER_REAL, &new_value, NULL);
 
     if (ret == -1)

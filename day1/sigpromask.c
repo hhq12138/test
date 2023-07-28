@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
+#include <unistd.h>
 // 编写一个程序，把常规信号（1-31）未决状态打印到屏幕
 int main()
 {
